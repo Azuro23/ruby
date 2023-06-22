@@ -22,7 +22,7 @@ export const userSlicer = createSlice({
     reducers: {
         addUser: (state, action) => { state.knownUsers.push(action.payload) },
         login: (state, action) => { state.currentUserInfo = { ...action.payload, isLoggedIn: true } },
-        logout: (state) => {state.currentUserInfo.isLoggedIn === true ? state.currentUserInfo.isLoggedIn = false : state.currentUserInfo.isLoggedIn = true},
+        logout: (state) => { state.currentUserInfo.isLoggedIn === true ? state.currentUserInfo.isLoggedIn = false : state.currentUserInfo.isLoggedIn = true},
     }
 })
 
