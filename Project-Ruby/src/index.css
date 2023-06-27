@@ -24,11 +24,20 @@ a:hover {
 }
 
 body {
-  margin: 0;
+  margin: 0px;
+  padding: 0px;
   display: flex;
   place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  height: 100vh;
+  width: 100vw;
+}
+body>#root {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  place-items: center;
+  height: 100vh;
+  width: 100vw;
 }
 
 h1 {
