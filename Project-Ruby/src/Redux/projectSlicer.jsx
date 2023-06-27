@@ -10,7 +10,7 @@ const initialState = {
 }
 
 export const projectSlicer = createSlice({
-    name: 'project',
+    name: 'projects',
     initialState,
 
     reducers: {
